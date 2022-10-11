@@ -23,7 +23,7 @@ will take).
 To start a migration execute the `migration:measurable` command, example:
 
 ```
- ./console migration:measurable --source-idsite=1 --target-db-host=192.168.1.1 --target-db-username=root --target-db-password=secure --target-db-name=piwik2
+ ./console migration:measurable --source-idsite=1 --target-idsite=1 --target-db-host=192.168.1.1 --target-db-username=root --target-db-password=secure --target-db-name=piwik2
 ```
 
 Optional parameters are:
