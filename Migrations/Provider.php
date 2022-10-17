@@ -20,6 +20,7 @@ class Provider
     public function getAllMigrations($skipLogs, $skipArchives)
     {
         $migrations = [
+            new SiteMigration(),
             new SiteUrlMigration(),
             new SiteSettingMigration(),
             new GoalsMigration(),
